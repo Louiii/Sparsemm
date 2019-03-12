@@ -1,0 +1,150 @@
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.20 GHz
+--------------------------------------------------------------------------------
+new size = 596662 HAD TO REALLOC
+new size = 1193324 HAD TO REALLOC
+NZ = 1020100, n = 8950
+--------------------------------------------------------------------------------
+Region A_times_B, Group 1: MEM
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 5.546310 |
+|     call count    |     1    |
++-------------------+----------+
+
++-----------------------+---------+-------------+
+|         Event         | Counter |    Core 0   |
++-----------------------+---------+-------------+
+|   INSTR_RETIRED_ANY   |  FIXC0  | 48227730000 |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  | 15984490000 |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  | 12160470000 |
+|      CAS_COUNT_RD     | MBOX0C0 |    262370   |
+|      CAS_COUNT_WR     | MBOX0C1 |    277668   |
+|      CAS_COUNT_RD     | MBOX1C0 |    86980    |
+|      CAS_COUNT_WR     | MBOX1C1 |    103722   |
+|      CAS_COUNT_RD     | MBOX2C0 |      0      |
+|      CAS_COUNT_WR     | MBOX2C1 |      0      |
+|      CAS_COUNT_RD     | MBOX3C0 |      0      |
+|      CAS_COUNT_WR     | MBOX3C1 |      0      |
+|      CAS_COUNT_RD     | MBOX4C0 |    264590   |
+|      CAS_COUNT_WR     | MBOX4C1 |    280233   |
+|      CAS_COUNT_RD     | MBOX5C0 |    88528    |
+|      CAS_COUNT_WR     | MBOX5C1 |    104427   |
+|      CAS_COUNT_RD     | MBOX6C0 |      0      |
+|      CAS_COUNT_WR     | MBOX6C1 |      0      |
+|      CAS_COUNT_RD     | MBOX7C0 |      0      |
+|      CAS_COUNT_WR     | MBOX7C1 |      0      |
++-----------------------+---------+-------------+
+
++-----------------------------------+-----------+
+|               Metric              |   Core 0  |
++-----------------------------------+-----------+
+|        Runtime (RDTSC) [s]        |   5.5463  |
+|        Runtime unhalted [s]       |   7.2661  |
+|            Clock [MHz]            | 2891.6489 |
+|                CPI                |   0.3314  |
+|  Memory read bandwidth [MBytes/s] |   8.1059  |
+|  Memory read data volume [GBytes] |   0.0450  |
+| Memory write bandwidth [MBytes/s] |   8.8396  |
+| Memory write data volume [GBytes] |   0.0490  |
+|    Memory bandwidth [MBytes/s]    |  16.9455  |
+|    Memory data volume [GBytes]    |   0.0940  |
++-----------------------------------+-----------+
+
+Region ABC_to_CSR, Group 1: MEM
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 0.044748 |
+|     call count    |     1    |
++-------------------+----------+
+
++-----------------------+---------+-----------+
+|         Event         | Counter |   Core 0  |
++-----------------------+---------+-----------+
+|   INSTR_RETIRED_ANY   |  FIXC0  | 340350000 |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  | 117340000 |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  |  89153220 |
+|      CAS_COUNT_RD     | MBOX0C0 |   51100   |
+|      CAS_COUNT_WR     | MBOX0C1 |   64046   |
+|      CAS_COUNT_RD     | MBOX1C0 |   49794   |
+|      CAS_COUNT_WR     | MBOX1C1 |   62285   |
+|      CAS_COUNT_RD     | MBOX2C0 |     0     |
+|      CAS_COUNT_WR     | MBOX2C1 |     0     |
+|      CAS_COUNT_RD     | MBOX3C0 |     0     |
+|      CAS_COUNT_WR     | MBOX3C1 |     0     |
+|      CAS_COUNT_RD     | MBOX4C0 |   51059   |
+|      CAS_COUNT_WR     | MBOX4C1 |   63740   |
+|      CAS_COUNT_RD     | MBOX5C0 |   49820   |
+|      CAS_COUNT_WR     | MBOX5C1 |   62674   |
+|      CAS_COUNT_RD     | MBOX6C0 |     0     |
+|      CAS_COUNT_WR     | MBOX6C1 |     0     |
+|      CAS_COUNT_RD     | MBOX7C0 |     0     |
+|      CAS_COUNT_WR     | MBOX7C1 |     0     |
++-----------------------+---------+-----------+
+
++-----------------------------------+-----------+
+|               Metric              |   Core 0  |
++-----------------------------------+-----------+
+|        Runtime (RDTSC) [s]        |   0.0447  |
+|        Runtime unhalted [s]       |   0.0533  |
+|            Clock [MHz]            | 2895.3841 |
+|                CPI                |   0.3448  |
+|  Memory read bandwidth [MBytes/s] |  288.5835 |
+|  Memory read data volume [GBytes] |   0.0129  |
+| Memory write bandwidth [MBytes/s] |  361.4856 |
+| Memory write data volume [GBytes] |   0.0162  |
+|    Memory bandwidth [MBytes/s]    |  650.0690 |
+|    Memory data volume [GBytes]    |   0.0291  |
++-----------------------------------+-----------+
+
+Region DEF_to_CSC, Group 1: MEM
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 0.093650 |
+|     call count    |     1    |
++-------------------+----------+
+
++-----------------------+---------+-----------+
+|         Event         | Counter |   Core 0  |
++-----------------------+---------+-----------+
+|   INSTR_RETIRED_ANY   |  FIXC0  | 694924100 |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  | 258730700 |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  | 196321300 |
+|      CAS_COUNT_RD     | MBOX0C0 |   89121   |
+|      CAS_COUNT_WR     | MBOX0C1 |   94376   |
+|      CAS_COUNT_RD     | MBOX1C0 |   86161   |
+|      CAS_COUNT_WR     | MBOX1C1 |   91303   |
+|      CAS_COUNT_RD     | MBOX2C0 |     0     |
+|      CAS_COUNT_WR     | MBOX2C1 |     0     |
+|      CAS_COUNT_RD     | MBOX3C0 |     0     |
+|      CAS_COUNT_WR     | MBOX3C1 |     0     |
+|      CAS_COUNT_RD     | MBOX4C0 |   88889   |
+|      CAS_COUNT_WR     | MBOX4C1 |   93964   |
+|      CAS_COUNT_RD     | MBOX5C0 |   86054   |
+|      CAS_COUNT_WR     | MBOX5C1 |   91104   |
+|      CAS_COUNT_RD     | MBOX6C0 |     0     |
+|      CAS_COUNT_WR     | MBOX6C1 |     0     |
+|      CAS_COUNT_RD     | MBOX7C0 |     0     |
+|      CAS_COUNT_WR     | MBOX7C1 |     0     |
++-----------------------+---------+-----------+
+
++-----------------------------------+-----------+
+|               Metric              |   Core 0  |
++-----------------------------------+-----------+
+|        Runtime (RDTSC) [s]        |   0.0937  |
+|        Runtime unhalted [s]       |   0.1176  |
+|            Clock [MHz]            | 2899.1967 |
+|                CPI                |   0.3723  |
+|  Memory read bandwidth [MBytes/s] |  239.3420 |
+|  Memory read data volume [GBytes] |   0.0224  |
+| Memory write bandwidth [MBytes/s] |  253.3666 |
+| Memory write data volume [GBytes] |   0.0237  |
+|    Memory bandwidth [MBytes/s]    |  492.7086 |
+|    Memory data volume [GBytes]    |   0.0461  |
++-----------------------------------+-----------+
+

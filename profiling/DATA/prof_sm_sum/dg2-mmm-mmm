@@ -1,0 +1,93 @@
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.20 GHz
+--------------------------------------------------------------------------------
+new size = 20951 HAD TO REALLOC
+new size = 41902 HAD TO REALLOC
+NZ = 20988, n = 3498
+--------------------------------------------------------------------------------
+Region A_times_B, Group 1: DATA
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 0.168474 |
+|     call count    |     1    |
++-------------------+----------+
+
++-----------------------------+---------+------------+
+|            Event            | Counter |   Core 0   |
++-----------------------------+---------+------------+
+|      INSTR_RETIRED_ANY      |  FIXC0  | 1249798000 |
+|    CPU_CLK_UNHALTED_CORE    |  FIXC1  |  368877900 |
+|     CPU_CLK_UNHALTED_REF    |  FIXC2  |  368878500 |
+|  MEM_UOPS_RETIRED_LOADS_ALL |   PMC0  |  496231200 |
+| MEM_UOPS_RETIRED_STORES_ALL |   PMC1  |  12396030  |
++-----------------------------+---------+------------+
+
++----------------------+-----------+
+|        Metric        |   Core 0  |
++----------------------+-----------+
+|  Runtime (RDTSC) [s] |   0.1685  |
+| Runtime unhalted [s] |   0.1677  |
+|      Clock [MHz]     | 2200.0019 |
+|          CPI         |   0.2952  |
+|  Load to store ratio |  40.0315  |
++----------------------+-----------+
+
+Region ABC_to_CSR, Group 1: DATA
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 0.005180 |
+|     call count    |     1    |
++-------------------+----------+
+
++-----------------------------+---------+----------+
+|            Event            | Counter |  Core 0  |
++-----------------------------+---------+----------+
+|      INSTR_RETIRED_ANY      |  FIXC0  | 30683670 |
+|    CPU_CLK_UNHALTED_CORE    |  FIXC1  | 10562200 |
+|     CPU_CLK_UNHALTED_REF    |  FIXC2  | 10562240 |
+|  MEM_UOPS_RETIRED_LOADS_ALL |   PMC0  |  6909210 |
+| MEM_UOPS_RETIRED_STORES_ALL |   PMC1  |  3345984 |
++-----------------------------+---------+----------+
+
++----------------------+-----------+
+|        Metric        |   Core 0  |
++----------------------+-----------+
+|  Runtime (RDTSC) [s] |   0.0052  |
+| Runtime unhalted [s] |   0.0048  |
+|      Clock [MHz]     | 2199.9971 |
+|          CPI         |   0.3442  |
+|  Load to store ratio |   2.0649  |
++----------------------+-----------+
+
+Region DEF_to_CSC, Group 1: DATA
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 0.006131 |
+|     call count    |     1    |
++-------------------+----------+
+
++-----------------------------+---------+----------+
+|            Event            | Counter |  Core 0  |
++-----------------------------+---------+----------+
+|      INSTR_RETIRED_ANY      |  FIXC0  | 35543590 |
+|    CPU_CLK_UNHALTED_CORE    |  FIXC1  | 13232790 |
+|     CPU_CLK_UNHALTED_REF    |  FIXC2  | 13232780 |
+|  MEM_UOPS_RETIRED_LOADS_ALL |   PMC0  |  7892002 |
+| MEM_UOPS_RETIRED_STORES_ALL |   PMC1  |  3884142 |
++-----------------------------+---------+----------+
+
++----------------------+-----------+
+|        Metric        |   Core 0  |
++----------------------+-----------+
+|  Runtime (RDTSC) [s] |   0.0061  |
+| Runtime unhalted [s] |   0.0060  |
+|      Clock [MHz]     | 2200.0071 |
+|          CPI         |   0.3723  |
+|  Load to store ratio |   2.0319  |
++----------------------+-----------+
+

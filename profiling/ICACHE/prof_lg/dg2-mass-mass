@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.20 GHz
+--------------------------------------------------------------------------------
+new size = 88693 HAD TO REALLOC
+new size = 177386 HAD TO REALLOC
+NON-ZEROS : 89500, n = 8950, m = 8950
+--------------------------------------------------------------------------------
+ERROR - [./src/perfmon.c:perfmon_getMetricOfRegionThread:2592] Interrupted system call.
+Cannot calculate formula FIXC1/FIXC0
+ERROR - [./src/perfmon.c:perfmon_getMetricOfRegionThread:2592] Interrupted system call.
+Cannot calculate formula PMC0/FIXC0
+ERROR - [./src/perfmon.c:perfmon_getMetricOfRegionThread:2592] Interrupted system call.
+Cannot calculate formula PMC1/FIXC0
+ERROR - [./src/perfmon.c:perfmon_getMetricOfRegionThread:2592] Interrupted system call.
+Cannot calculate formula PMC1/PMC0
+Region B_to_CSB, Group 1: ICACHE
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 0.000000 |
+|     call count    |     0    |
++-------------------+----------+
+
++-----------------------+---------+--------+
+|         Event         | Counter | Core 0 |
++-----------------------+---------+--------+
+|   INSTR_RETIRED_ANY   |  FIXC0  |    0   |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  |    0   |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  |    0   |
+|    ICACHE_ACCESSES    |   PMC0  |    0   |
+|     ICACHE_MISSES     |   PMC1  |    0   |
++-----------------------+---------+--------+
+
++----------------------+--------+
+|        Metric        | Core 0 |
++----------------------+--------+
+|  Runtime (RDTSC) [s] |    0   |
+| Runtime unhalted [s] |    0   |
+|      Clock [MHz]     |    0   |
+|          CPI         |   nan  |
+|   L1I request rate   |   nan  |
+|     L1I miss rate    |   nan  |
+|    L1I miss ratio    |   nan  |
++----------------------+--------+
+
+Region A_to_CSR, Group 1: ICACHE
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 0.008368 |
+|     call count    |     1    |
++-------------------+----------+
+
++-----------------------+---------+----------+
+|         Event         | Counter |  Core 0  |
++-----------------------+---------+----------+
+|   INSTR_RETIRED_ANY   |  FIXC0  | 46811490 |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  | 16325830 |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  | 16325500 |
+|    ICACHE_ACCESSES    |   PMC0  |   44945  |
+|     ICACHE_MISSES     |   PMC1  |   1048   |
++-----------------------+---------+----------+
+
++----------------------+--------------+
+|        Metric        |    Core 0    |
++----------------------+--------------+
+|  Runtime (RDTSC) [s] |    0.0084    |
+| Runtime unhalted [s] |    0.0074    |
+|      Clock [MHz]     |   2200.0562  |
+|          CPI         |    0.3488    |
+|   L1I request rate   |    0.0010    |
+|     L1I miss rate    | 2.238767e-05 |
+|    L1I miss ratio    |    0.0233    |
++----------------------+--------------+
+
+Region A_times_B, Group 1: ICACHE
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 1.287370 |
+|     call count    |     1    |
++-------------------+----------+
+
++-----------------------+---------+-------------+
+|         Event         | Counter |    Core 0   |
++-----------------------+---------+-------------+
+|   INSTR_RETIRED_ANY   |  FIXC0  | 12346560000 |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  |  3383389000 |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  |  2820129000 |
+|    ICACHE_ACCESSES    |   PMC0  |    568744   |
+|     ICACHE_MISSES     |   PMC1  |     4590    |
++-----------------------+---------+-------------+
+
++----------------------+--------------+
+|        Metric        |    Core 0    |
++----------------------+--------------+
+|  Runtime (RDTSC) [s] |    1.2874    |
+| Runtime unhalted [s] |    1.5379    |
+|      Clock [MHz]     |   2639.4167  |
+|          CPI         |    0.2740    |
+|   L1I request rate   | 4.606498e-05 |
+|     L1I miss rate    | 3.717635e-07 |
+|    L1I miss ratio    |    0.0081    |
++----------------------+--------------+
+
